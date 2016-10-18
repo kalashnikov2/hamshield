@@ -166,9 +166,6 @@ void loop() {
    
    radio.frequency(145670);
    radio.setModeTransmit(); 
-    //tone(PWM_PIN,radio.getDTMFC7(),Q);
-    //delay(1+Q);
-     //delay(1+Q);
      delay(2*H);
     tone(PWM_PIN,LA3,Q); 
     delay(1+Q); //delay duration should always be 1 ms more than the note in order to separate them.
